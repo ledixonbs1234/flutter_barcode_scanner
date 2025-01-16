@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.example.flutter_barcode_scanner" // Thay thế 'com.example.flutter_barcode_scanner' bằng namespace của bạn
     compileSdkVersion 30
 
     defaultConfig {
